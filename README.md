@@ -86,4 +86,4 @@ The survey examines:
 ## 🚀 How to Run the Jupyter Notebook  
 
 ### **🔹 Open in Google Colab**  
-📌 **[Open Survey Analysis Notebook](https://colab.research.google.com/github/harrisd97/Healthcare-Prioritization-Survey/blob/main/Survey_Analysis.ipynb)**  
+📌 **[Open Survey Analysis Notebook](https://colab.research.google.com/github/harrisd97/Health-Care-Prioritization-Survey/blob/main/Survey_Analysis.ipynb)**  
