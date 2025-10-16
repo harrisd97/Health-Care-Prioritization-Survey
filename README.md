@@ -4,7 +4,7 @@
 
 ---
 
-## Executive Summary
+## Project Summary
 
 This project explores public opinion on healthcare prioritization using survey data. By analyzing responses, this study identifies how factors like age, condition severity, and socioeconomic status influence views on equitable healthcare distribution. The results can inform future policies aimed at creating a more transparent and fair system for resource allocation.
 
