@@ -1,89 +1,72 @@
-# 🏥 Healthcare Prioritization Survey  
+# Healthcare Prioritization Survey Analysis
 
-Understanding **ethical decision-making in healthcare resource allocation** through survey analysis and data visualization.
-
----
-
-## 🚀 Project Overview  
-
-This project explores **public perspectives on healthcare prioritization** using survey data.  
-Key insights include how **age, condition severity, socioeconomic status, and ethical values** influence people's views on fair healthcare distribution.
-
-Results from this study can **inform future policies** aimed at making healthcare resource allocation **more equitable**.
+**Project Focus:** Understanding public perspectives on ethical decision-making in healthcare resource allocation through survey analysis and data visualization.
 
 ---
 
-## 📂 Project Files  
+## Executive Summary
 
-📌 `Survey_Analysis.ipynb` - Jupyter Notebook for survey data processing, EDA, and statistical analysis.  
-📌 `Survey1.xlsx` - Raw survey dataset containing responses.  
+This project explores public opinion on healthcare prioritization using survey data. By analyzing responses, this study identifies how factors like age, condition severity, and socioeconomic status influence views on equitable healthcare distribution. The results can inform future policies aimed at creating a more transparent and fair system for resource allocation.
+
+| Business Problem | Technical Approach | Outcome |
+| :--- | :--- | :--- |
+| Lack of quantitative data on public opinion regarding healthcare ethics. | **Survey data analysis using Python and visualization with Tableau.** | Generated key insights into public priorities, values, and trust in the healthcare system. |
 
 ---
 
-## 🛠️ Technologies & Tools  
+## Technologies & Tools
 
-| **Category**  | **Technologies Used** |
-|--------------|-----------------------|
+| Category | Technologies Used |
+| :--- | :--- |
 | **Programming Language** | Python |
 | **Libraries** | Pandas, NumPy, Matplotlib, Seaborn |
 | **Data Visualization** | Tableau, Matplotlib |
 
 ---
 
-## 📊 Survey Goals  
+## Methodology Summary
 
-The survey examines:  
-✔️ **Public awareness** of healthcare prioritization.  
-✔️ **Factors influencing prioritization** (e.g., condition severity, age, socioeconomic status).  
-✔️ **Trust in healthcare systems** to allocate resources fairly.  
-✔️ **Ethical values** guiding medical decisions.  
+The project involved a comprehensive analysis of survey data, beginning with a thorough data cleaning process. This included removing timestamps and duplicates, structuring multi-choice responses into linked tables for clarity, and standardizing column names for seamless integration with Tableau. The final, clean dataset was then used for statistical analysis and the creation of an interactive dashboard to visualize the findings.
 
 ---
 
-## 🔍 Data Processing Summary  
+## Key Findings from the Survey
 
-✔️ **Cleaned Data** - Removed timestamps, duplicates, and invalid responses.  
-✔️ **Structured Data** - Split multi-choice responses into separate linked tables.  
-✔️ **Column Renaming** - Standardized for better Tableau integration.  
-✔️ **Final Dataset** - Ready for visualization and statistical analysis.  
+#### 1. Crisis Prioritization Preferences
+- **44%** of respondents believe **everyone should be treated equally**.
+- **22%** prioritize elderly patients, while **17%** prioritize children.
 
----
+#### 2. Age Group Distribution
+- The majority (56%) of respondents fall within the **25-34 age group**, followed by **18-24 (28%)**.
 
-## 📊 Key Insights from the Survey  
+#### 3. Gender-Based Prioritization Factors
+- Males prioritize **Age (9 votes)** and **Severity of Condition (8 votes)**.
+- Females prioritize **Severity of Condition (5 votes)** and **Socioeconomic Status (2 votes)**.
 
-### **1️⃣ Crisis Prioritization Preferences**
-- **44%** of respondents believe **everyone should be treated equally**.  
-- **22% prioritize elderly patients**, while **17% prioritize children** and **others prefer frontline workers**.  
+#### 4. Valued Ethical Principles
+- The most valued ethical principles are **Equity and Individual Rights**, while **Maximization of Benefits** ranks lowest.
 
-### **2️⃣ Age Group Distribution**
-- The majority (56%) of respondents fall within the **25-34 age group**, followed by **18-24 (28%)** and **35-44 (17%)**.  
-
-### **3️⃣ Gender-Based Prioritization**
-- Males prioritize **Age (9 votes)** and **Severity of Condition (8 votes)**.  
-- Females prioritize **Severity of Condition (5 votes)** and **Socioeconomic Status (2 votes)**.  
-
-### **4️⃣ Ethical Principles in Healthcare Decision-Making**
-- The most valued ethical principles are **Equity and Individual Rights**, while **Maximization of Benefits** ranks lowest.  
-
-### **5️⃣ Trust Level vs. Barriers**
-- 57% of respondents report encountering **barriers in accessing healthcare services**.  
-- **Trust in the healthcare system is lower** among those who faced barriers.  
+#### 5. Trust in the Healthcare System
+- **57%** of respondents report encountering **barriers when accessing healthcare**.
+- **Trust in the system is notably lower** among individuals who have faced these barriers.
 
 ---
 
-## 📊 Tableau Dashboard  
+## Tableau Dashboard
 
-📌 **Key Visuals:**  
-✔️ **Bar Charts** – Gender vs. Prioritization Factors  
-✔️ **Stacked Charts** – Crisis Prioritization Preferences  
-✔️ **Bubble Chart** – Trust Levels vs. Barriers Encountered  
+The interactive Tableau dashboard centralizes key survey insights, featuring visualizations such as bar charts comparing gender-based priorities, stacked charts for crisis preferences, and a bubble chart illustrating the relationship between trust levels and barriers to access.
 
-![Healthcare Prioritization Survey](https://github.com/user-attachments/assets/644239c8-31f7-439f-bc11-59a8b6246ac6)
-
+![Healthcare Prioritization Survey Dashboard](https://github.com/user-attachments/assets/644239c8-31f7-439f-bc11-59a8b6246ac6)
 
 ---
 
-## 🚀 How to Run the Jupyter Notebook  
+## Project Files & Execution
 
-### **🔹 Open in Google Colab**  
-📌 **[Open Survey Analysis Notebook](https://colab.research.google.com/github/harrisd97/Health-Care-Prioritization-Survey/blob/main/Survey_Analysis.ipynb)**  
+- **`Survey_Analysis.ipynb`**: Jupyter Notebook containing all data processing, EDA, and statistical analysis steps.
+- **`Survey1.xlsx`**: The raw survey dataset.
+
+### How to Run the Analysis
+
+The notebook is accessible and can be run directly in Google Colab, with no local setup required.
+
+- **[Open Survey Analysis Notebook in Google Colab](https://colab.research.google.com/github/harrisd97/Health-Care-Prioritization-Survey/blob/main/Survey_Analysis.ipynb)**
